@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> E-Portfolio Website</title>
+        <!-- Custom Css Link-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@310;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Header Design -->
+        <header>
+            <a href="#" class="logo">Wel<span>come</span>.</a>
+
+            <ul class="navlist">
+                <li><a href="#about" class="active">More About Me</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#references">Reference</a></li>
+                <li><a href="index.html">Return to Home</a></li>
+            </ul>
+        </header>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/self1.jpg">
+            </div>
+
+            <div class="about-text">
+                <h2>More<span> About</span> me</h2>
+                <h5>Student at Bulacan State University</h5>
+
+                <!-- ***************** eXTENSIVE MARKUP LANGUAGE ***************** -->
+                <?xml version="1.0" encoding="UTF-8"?>
+                <info>
+                    <p><i>I feel that my passion for design, attention to detail, 
+                       and curiosity in developing technologies will enable me 
+                       to become an exceptional UI designer in the future</i></p>
+                    <name><b>Full Name:</b> Jerish Anne S. Cafe</name><br>
+                    <birth><b>Birth Date:</b> October 20, 2001</birth><br>
+                    <add><b>Address:</b> 0109 Zone 1, San Isidro Hagonoy Bulacan</add><br>
+                    <email><b>Email:</b> jerishannecafe@gmail.com</email><br>
+                    <contact><b>Contact No.:</b> +639207861059</contact><br><br>
+                </info>
+
+                <div class="me_icons">
+                    <a href="https://www.facebook.com/jerishanne.santos/" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/jrshannne/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR1JroWSxqhzhAIN1jeAgJn2x-lPrSKUbD8_jLGoNn3wE3TDN3xt1j-qnaM" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/jerishnncafe?s=21&fbclid=IwAR0_Sc2IRqVgBFUmnyDj_6RXdE5T7O3_Of9v9rMU9SCYAtR3lYOtoyTLfnY" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= Certificate Section ============================= -->
+        <section class="certificates" id="certificates">
+            <div class="certiheader">
+                <h2>Certi<span>ficates</span></h2>
+                <p>Seminars Attended and Awards</p>
+            </div>
+            <div class="grid_wrapper">
+                <div>
+                    <img src="img/certi1.jpg">
+                </div>
+                <div>
+                    <img src="img/certi2.jpg">
+                </div>
+                <div>
+                    <img src="img/solearnhtml.jpg">
+                </div>
+                <div>
+                    <img src="img/solearncss.jpg">
+                </div>
+                <div>
+                    <img src="img/solearnphp.jpg">
+                </div>
+                <div>
+                    <img src="img/certi3.jpg">
+                </div>
+                <div>
+                    <img src="img/certi4.jpg">
+                </div>
+                <div>
+                    <img src="img/certi5.jpg">
+                </div>
+                <div>
+                    <img src="img/certi6.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= Reference Section ============================= -->
+        <section class="reference" id="references">
+            <div class="references">
+                <div class="inner">
+                    <h1>Character References</h1>
+                    <div class="border"></div>
+
+                    <div class="rows">
+                        <div class="col">
+                            <div class="reference">
+                                <img src="img/ref1.png" alt="">
+                                <div class="name">Daisy Chan</div>
+                                <p> - Elementary Teacher <br>
+                                    - San Miguel, Hagonoy Bulacan<br>
+                                    - 09058281397</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="reference">
+                                <img src="img/ref2.png" alt="">
+                                <div class="name">Brainard Tolentino</div>
+                                <p> - Graphic Artist <br>
+                                    - Caloocan, Bagong Silang<br>
+                                    - 09665314719</p>
+                            </div>
+                        </div>
+
+                            <div class="buttons">
+                                <button id="hide" class="btn-m">Hide</button>
+                                <button id="show" class="btn-m">Show More Details</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***************** JQuery ***************** -->
+        <script>
+            $(document).ready(function(){
+              $("#hide").click(function(){
+                $("p").hide();
+              });
+              $("#show").click(function(){
+                $("p").show();
+              });
+            });
+        </script>
+
+
+         <!-- ============================= Footer Section ============================= -->
+         <section class="end">
+            <div class="last_text">
+                <p>Copyright © 2023 by Jerish Anne Cafe  |  All Rights Reserved.</p>
+            </div>
+
+            <div class="top">
+                <a href="#about"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+        </section>
+
+
+        <script type="text/javascript" src="js/script.js"></script>
+       
+    </body>
+</html>
+
+
+

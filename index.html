@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Portfolio Website</title>
+    <!-- Custom Css Link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ============================= Header ============================= -->
+    <header>
+        <a href="#" class="logo">Wel<span>come</span>.</a>
+
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualification">Education</a></li>  
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="mennu-icon">
+        </div>
+    </header>
+
+    <!-- ============================= Home Section ============================= -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Jerish Anne Cafe</h1>
+            <h3>from<span> BSIT-3B-G1</span></h3>
+            <p>Bachelor of Science in Information Technology.</p>
+            <div class="button">
+                <a href="#about" class="btn">About Me</a>
+                <a href="file/cv.pdf" download="" target="_blank" class="btn">Download CV!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= About Me Section ============================= -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/self1.jpg">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h5>Student at Bulacan State University</h5>
+            <p><i>Hello! I am Jerish Anne S. Cafe. <br>
+                    UI design is a hard and interesting
+                    career that encourages creativity
+                    and innovation. I've always been
+                    interested by the way user interfaces
+                    connect with human-computer interaction.
+                    This inspired my curiosity in becoming a
+                    user interface designer sooner or later.
+                    What drew me to this line of work was the
+                    ability to create significant and interesting
+                    visual designs, construct user-friendly interfaces,
+                    and work with innovative technology. I feel
+                    that my passion for design, attention to detail,
+                    and curiosity in developing technologies will
+                    enable me to become an exceptional UI
+                    designer in the future.</i></p>
+            <div class="button">
+                <a href="more.html" class="btn-m">More About me!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= Education Section ============================= -->
+    <section class="qualification section" id="qualification">
+        <div class="educheader">
+            <h2>Educ<span>ation</span></h2>
+            <p>My Personal Journey</p>
+        </div>
+
+        <div class="qualification_container container">
+            <div class="qualification_tabs">
+                <div class="qualification_button button--flex qualification__active" data-target='#education'>
+                    <i class="bx bxs-graduation qualification_icon"></i>
+                    Education
+                </div>
+
+                <div class="qualification_button button--flex" data-target='#achievements'>
+                    <i class="bx bx-medal qualification_icon"></i>
+                    Achievements
+                </div>
+            </div>
+
+            <div class="qualification_sections">
+                <!-- ============================= Qualification Content 1 ============================= -->
+                <div class="qualification_content qualification__active" data-content id="education">
+                    <!-- ============================= Qualification 1 ============================= -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Tertiary</h3>
+                            <span class="qualification_subtitle">Bulacan State University</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2021 - 2024
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <!-- ============================= Qualification 2 ============================= -->
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Secondary</h3>
+                            <span class="qualification_subtitle">St. Anne's Catholic School</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2019 - 2021
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============================= Qualification 3 ============================= -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Secondary</h3>
+                            <span class="qualification_subtitle">Sta. Monica National High School</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2015 - 2019
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <!-- ============================= Qualification 4 ============================= -->
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <!-- <span class="qualification_line"></span> -->
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Primary</h3>
+                            <span class="qualification_subtitle">Teodora Cruz Elementary School</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2009 - 2015
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ============================= Qualification Content 2 ============================= -->
+                <div class="qualification_content" data-content id="achievements">
+                    <!-- ============================= Qualification 2.1 ============================= -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Academic Achiever</h3>
+                            <span class="qualification_subtitle">on Grade 11 and Grade 12 of Senior High School</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2019 - 2021
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <!-- ============================= Qualification 2.2============================= -->
+                    <div class="qualification_data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Academic Excellence</h3>
+                            <span class="qualification_subtitle">on 1st Year and 2nd Year of College</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2020 - 2022
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============================= Qualification 2.3 ============================= -->
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Academic Excellence</h3>
+                            <span class="qualification_subtitle">on First Sem of 3rd Year College</span>
+                            <div class="qualification_calendar">
+                                <i class='bx bxs-calendar'></i>
+                                2023
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= Skills Section ============================= -->
+    <section class="skills" id="skill">
+        <div class="skillheader">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my skills to represent my Expertise</p>
+        </div>
+
+        <div class="skills-container container">
+            <div class="skills_tabs">
+                <div class="skills_title">
+                    Soft skills
+                </div>
+
+                <div class="skills_title">
+                    Technological Skills
+                </div>
+            </div>
+            <div class="skill_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Creativity</p>
+                        <p class="percent">90%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="creativity"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p class="percent">85%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Empathy</p>
+                        <p class="percent">85%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="empathy"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p class="percent">80%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Adoptability</p>
+                        <p class="percent">70%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="adoptability"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p class="percent">50%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="java"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Communication Skills</p>
+                        <p class="percent">95%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="communication"></span>
+                    </div>
+                </div>
+
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>PHP</p>
+                        <p class="percent">50%</p>
+                    </div>
+
+                    <div class="bar">
+                        <span class="php"></span>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- ============================= Portfolio Section ============================= -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolioheader">
+            <h2>Port<span>folio</span></h2>
+            <p>Most recent work (UI design and Project Completed)</p>
+        </div>
+
+        <div class="row">
+            <div class="portfolio_item" data-category="project">
+                <div class="portfolio_item_inner">
+                    <div class="portfolio_item_thumbnail">
+                        <img src="img/project1.png" alt="">
+                        <div class="mask"></div>
+                    </div>
+                    <span class="term">Project</span>
+                    <h3 class="portfolio_item_title">Ecommerce Website</h3>
+                </div>
+            </div>
+
+            <div class="portfolio_item" data-category="project">
+                <div class="portfolio_item_inner">
+                    <div class="portfolio_item_thumbnail">
+                        <img src="img/project2.png" alt="">
+                        <div class="mask"></div>
+                    </div>
+                    <span class="term">Project</span>
+                    <h3 class="portfolio_item_title">Curriculum Vitae</h3>
+                </div>
+            </div>
+
+            <div class="portfolio_item" data-category="design">
+                <div class="portfolio_item_inner">
+                    <div class="portfolio_item_thumbnail">
+                        <img src="img/project3.png" alt="">
+                        <div class="mask"></div>
+                    </div>
+                    <span class="term">Project</span>
+                    <h3 class="portfolio_item_title">Online Resume</h3>
+                </div>
+            </div>
+
+            <div class="portfolio_item" data-category="design">
+                <div class="portfolio_item_inner">
+                    <div class="portfolio_item_thumbnail">
+                        <img src="img/design1.png" alt="">
+                        <div class="mask"></div>
+                    </div>
+                    <span class="term">Design</span>
+                    <h3 class="portfolio_item_title">Museum Website - Design</h3>
+                </div>
+            </div>
+
+            <div class="portfolio_item" data-category="design">
+                <div class="portfolio_item_inner">
+                    <div class="portfolio_item_thumbnail">
+                        <img src="img/design2.png" alt="">
+                        <div class="mask"></div>
+                    </div>
+                    <span class="term">Design</span>
+                    <h3 class="portfolio_item_title">Chingubot - Chatbot Design</h3>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ============================= Contact Me Section ============================= -->
+    <section class="contact" id="contact">
+        <div class="contactheader">
+            <h2>Contact <span>Me</span></h2>
+            <p>Here</p>
+        </div>
+
+        <div class="contact_container">
+            <div class="contact_content">
+                <div class="left_side">
+                    <div class="address details">
+                        <i class='bx bx-map'></i>
+                        <div class="topic">Address</div>
+                        <div class="text_one">0109 Zone 1</div>
+                        <div class="text_two">San Isidro Hagonoy Bulacan</div>
+
+                    </div>
+
+                    <div class="phone details">
+                        <i class='bx bxs-phone'></i>
+                        <div class="topic">Phone</div>
+                        <div class="text_one">+639207861059</div>
+                    </div>
+
+                    <div class="email details">
+                        <i class='bx bx-envelope'></i>
+                        <div class="topic">Email</div>
+                        <div class="text_one">jerishannecafe@gmail.com</div>
+                    </div>
+                </div>
+
+                <div class="right_side">
+                    <div class="topic_text">Send me a Message!</div>
+                    <p>If you have any work from me, you can message me from here. It's my pleasure to work on you!</p>
+                    <form action="form">
+                        <div class="input_box">
+                            <input type="text" placeholder="Enter your Name">
+                        </div>
+                        <div class="input_box">
+                            <input type="text" placeholder="Enter your Email">
+                        </div>
+                        <div class="input_box message-box">
+                            <textarea placeholder="How can i help you?"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= Footer Section ============================= -->
+    <section class="end">
+        <div class="last_text">
+            <p>Copyright © 2023 by Jerish Anne Cafe | All Rights Reserved.</p>
+        </div>
+
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </section>
+    <!-- ============================= Custom Js Link =============================  -->
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
