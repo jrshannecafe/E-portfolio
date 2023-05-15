@@ -23,7 +23,7 @@ tabs.forEach(tab =>{
         tab.classList.add('qualification__active')
     })
 })
-
+/* ============================= Button Alert =============================*/
 document.querySelector('.button input[type="button"]').addEventListener('click', function() {
     alert('Your message has been submitted! Thank you for contacting me.');
 });
