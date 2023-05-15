@@ -1,4 +1,5 @@
 Welcome to my e-portfolio website!
+
 Go to this website link https://jrshannecafe.github.io/E-portfolio/
 
 My name is Jerish Anne S. Cafe, and this is my e-portfolio website. Here, you will find information about my skills, my portfolio, and educational attainment and accomplishments. This website serves as a tool for me to showcase my work and to connect with potential employers, colleagues, and collaborators.
